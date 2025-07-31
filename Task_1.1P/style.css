@@ -1,0 +1,133 @@
+body {
+  font-family: Indie Flower, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  background-color: #e07474;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size : 30px;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+}
+
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: burlywood;
+  font-size: 55px;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+
+header:hover .hover-text {
+  display: block;
+}
+
+#about {
+  text-align: center;
+  font-size : 30px;
+  background-color: #e07474;
+  padding-top: 50px; 
+  padding-bottom: 1px;
+}
+
+
+#work{
+  text-align : center;
+  font-size : 35px;
+  background-color: pink;
+  padding-bottom: 1px;
+  padding-top: 50px;
+}
+
+#contact{
+  text-align: center;
+  font-size : 30px;
+  background-color: #e07474;
+  padding-top: 50px;
+}
+
+a {
+  color: black;
+  text-decoration: none; 
+}
+
+
+.profile-photo {
+  width: 200px;
+  border-radius: 100%;
+  display: block;
+  margin: 30px auto;
+}
+
+.project {
+  margin: 20px;
+  padding: 10px;
+  border: 10px solid #080101;
+}
+
+.project img{
+  width: 600px;
+  height: auto;
+  margin: 10px;
+  justify-content: center;
+}
+
+.gallery-section {
+  background-color: rgb(242, 158, 176);
+  padding-top: 35px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.gallery-heading {
+  font-size: 45px;
+  margin-bottom: 40px;
+  color: black;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+
+/* Responsive image gallery */
+@media (max-width: 600px) {
+  .gallery img {
+    width: 100%;
+  }
+}
