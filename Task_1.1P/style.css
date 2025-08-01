@@ -124,4 +124,8 @@ a {
   border-radius: 10%;
 }
 
-
+@media (max-width: 600px) {
+  .gallery img {
+    width: 100%;
+  }
+}
