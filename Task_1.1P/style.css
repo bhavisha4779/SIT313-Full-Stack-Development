@@ -86,8 +86,8 @@ a {
 }
 
 .project {
-  margin: 20px;
-  padding: 10px;
+  margin: 2px;
+  padding: 1px;
   border: 10px solid #080101;
 }
 
@@ -124,8 +124,14 @@ a {
   border-radius: 10%;
 }
 
-@media (max-width: 600px) {
-  .gallery img {
+.divider{
+  background-color: black;
+  width: 670px;         
+  height: 3px;
+  border: none;
+}
+@media (max-width: 600px){
+  .gallery img, .project img, .profile-photo, .header-img{
     width: 100%;
   }
 }
